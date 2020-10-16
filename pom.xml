@@ -25,12 +25,16 @@
       <organization>Harald Weyhing</organization>
       <organizationUrl>http://cups4j.org</organizationUrl>
     </developer>
+    <developer>
+      <name>Dawid Rodak</name>
+      <email>dawidrodak@yahoo.com</email>
+    </developer>
   </developers>
 
   <scm>
-    <connection>scm:git:git://github.com/harwey/cups4j</connection>
-    <developerConnection>scm:git:ssh://github.com:harwey/cups4j</developerConnection>
-    <url>http://github.com/harwey/cups4j/tree/master</url>
+    <connection>scm:git:git://github.com/rodakd/cups4j</connection>
+    <developerConnection>scm:git:ssh://github.com:rodakd/cups4j</developerConnection>
+    <url>http://github.com/rodakd/cups4j/tree/master</url>
   </scm>
 
   <distributionManagement>
@@ -64,8 +68,8 @@
 
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
-      <artifactId>httpclient</artifactId>
-      <version>4.5.2</version>
+      <artifactId>httpclient-android</artifactId>
+      <version>4.3.5.1</version>
     </dependency>
 
     <dependency>

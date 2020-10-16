@@ -176,7 +176,6 @@ public abstract class IppOperation {
     HttpClient client = HttpClientBuilder.create().build();
 
     HttpPost httpPost = new HttpPost(new URI("http://" + url.getHost() + ":" + ippPort) + url.getPath());
-    httpPost.setConfig(getRequestConfig());
     httpCall = httpPost;
 
     // httpPost.getParams().setParameter("http.socket.timeout", new
